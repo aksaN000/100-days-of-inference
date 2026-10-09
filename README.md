@@ -1,6 +1,6 @@
 # 100 Days of LLM Inference
 
-A structured deep-dive into inference engineering — from CUDA kernels to multi-cloud autoscaling — built around *[Inference Engineering](https://www.baseten.co/library/inference-engineering/)* by Philip Kiely (Baseten Books, 2026).
+A structured deep-dive into inference engineering, from CUDA kernels to multi-cloud autoscaling, built around *[Inference Engineering](https://www.baseten.co/library/inference-engineering/)* by Philip Kiely (Baseten Books, 2026).
 
 Each entry is a runnable script. All experiments run on a home-lab cluster of two NVIDIA DGX Sparks.
 
@@ -9,15 +9,15 @@ Each entry is a runnable script. All experiments run on a home-lab cluster of tw
 ## What is Inference Engineering?
 
 > *"Doing inference well requires three layers: Runtime, Infrastructure, and Tooling."*
-> — Philip Kiely, Inference Engineering
+> Philip Kiely, *Inference Engineering*
 
-Inference engineering is the discipline of serving generative AI models in production — faster, cheaper, and more reliably. It spans the full stack from CUDA memory layouts to Kubernetes autoscaling policies. This challenge covers all three layers systematically.
+Inference engineering is the discipline of serving generative AI models in production: faster, cheaper, and more reliably. It spans the full stack from CUDA memory layouts to Kubernetes autoscaling policies. This challenge covers all three layers systematically.
 
 ---
 
 ## The Plan
 
-### Phase 1 — Runtime: Single-Instance Optimization
+### Phase 1: Runtime (Single-Instance Optimization)
 
 Getting the most out of one GPU. This is where most of the leverage lives.
 
@@ -42,7 +42,7 @@ Getting the most out of one GPU. This is where most of the leverage lives.
 | [17](./day17/) | Model Parallelism: Tensor, Expert, Pipeline & Data | Ch 5.4 |
 | [18](./day18/) | Disaggregation: Prefill/Decode Split | Ch 5.5 |
 
-### Phase 2 — Infrastructure: Scaling Across Clusters
+### Phase 2: Infrastructure (Scaling Across Clusters)
 
 Getting the most out of many GPUs across clouds and regions.
 
@@ -57,7 +57,7 @@ Getting the most out of many GPUs across clouds and regions.
 | [25](./day25/) | Multi-Cloud Capacity Management | Ch 7.3 |
 | [26](./day26/) | Zero-Downtime Deployment & Cost Estimation | Ch 7.4 |
 
-### Phase 3 — Tooling: Productivity & Observability
+### Phase 3: Tooling (Productivity & Observability)
 
 The instrumentation layer that makes the other two debuggable.
 
@@ -69,7 +69,7 @@ The instrumentation layer that makes the other two debuggable.
 
 ---
 
-### Phase 4 — Deep Implementation: Build It from Scratch
+### Phase 4: Deep Implementation (Build It from Scratch)
 
 The book explains the concepts. Now implement them.
 
@@ -101,7 +101,7 @@ The book explains the concepts. Now implement them.
 
 ---
 
-### Phase 5 — Production Systems: From Notebook to Cluster
+### Phase 5: Production Systems (From Notebook to Cluster)
 
 Ship it.
 
@@ -135,7 +135,7 @@ Ship it.
 
 ---
 
-### Phase 6 — Modalities: Beyond Text
+### Phase 6: Modalities (Beyond Text)
 
 The book covers vision, audio, and video. Inference engineering applies to all of them.
 
@@ -154,7 +154,7 @@ The book covers vision, audio, and video. Inference engineering applies to all o
 
 ---
 
-### Phase 7 — Advanced Techniques
+### Phase 7: Advanced Techniques
 
 The frontier of inference research, made practical.
 
@@ -173,7 +173,7 @@ The frontier of inference research, made practical.
 
 ---
 
-### Phase 8 — Capstone: A Production Inference Stack
+### Phase 8: Capstone (A Production Inference Stack)
 
 Build something real.
 
@@ -227,6 +227,6 @@ jupyter notebook
 
 ## Reference
 
-- **Book:** *Inference Engineering* — Philip Kiely (Baseten Books, 2026)
+- **Book:** *Inference Engineering* by Philip Kiely (Baseten Books, 2026)
 - **Cluster:** spark-01 `192.168.1.76` · spark-02 `192.168.1.77`
 - **Start:** 2026-03-31
